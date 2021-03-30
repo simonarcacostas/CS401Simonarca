@@ -1,0 +1,55 @@
+.input_box {
+  margin: 10px 25px;
+  font-size: 15px;
+}
+
+#comment {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 50%;
+    
+}
+
+#center {
+  margin: auto;
+  width: 25%;
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+}
+table {
+  margin-left: 25px;
+  margin-right: 25px;
+  border-collapse: collapse;
+}
+
+table > thead > tr > th  {
+  background-color: #AAA;
+  border: solid 1px #111;
+  padding: 10 10;
+
+}
+
+table > tr, td {
+  border: solid 1px #111;
+  padding: 10 10;
+}
+
+.message {
+  border: 1px black solid;
+  margin: 10px 10px;
+  padding: 5px 5px;
+  width: 300px;
+  color: white;
+}
+
+.positive_vibes {
+  margin: 25px 25px;
+  background-color: #1E9E1E;
+}
+
+  .bad_mojo {
+  margin: 25px 25px;
+  background-color: #B90000;
+}
